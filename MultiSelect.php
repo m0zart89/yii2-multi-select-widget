@@ -24,6 +24,11 @@ use Yii;
 class MultiSelect extends InputWidget
 {
 	/**
+	 * @var array selected for generating selected items
+	 * 
+	 */
+	 public value = [];
+	/**
 	 * @var array data for generating the list options (value=>display)
 	 */
 	public $data = [];
