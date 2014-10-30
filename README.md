@@ -28,11 +28,11 @@ Using a model:
 use dosamigos\multiselect\MultiSelect;
 
 <?= MultiSelect::widget([
-    'data' => ['super', 'natural'],
-    'name' => 'Test'
+    'data' => [0 => 'super', 1 => 'natural'],
+    'value' => [ '0' ]
+    'name' => 'Test',
+    'options' => [
+        'multiple' => 'multiple'
+    ]
 ]) ?>
 ```
-
-> [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)   
-<i>Web development has never been so fun!</i>
-[www.2amigos.us](http://www.2amigos.us)
